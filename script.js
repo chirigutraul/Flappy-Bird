@@ -6,7 +6,7 @@ const windowHeight = window.innerHeight;
 const multiplier = windowHeight/512;
 document.body.style.transform = `scale(${multiplier})`;
 
-let gravityAcc = 1.5;
+let gravityAcc = 1.2;
 let birdX = 12;
 let birdY = 150;
 let birdHeight = 24;
@@ -18,7 +18,7 @@ let globalPipesX = 290;
 let pipeWidth = 52;
 let pipeLength = 320;
 let distanceBetweenPipes = 100;
-let jumpHeight = 60;
+let jumpHeight = 50;
 let pipeSpeed = 1;
 let score = 0;
 let repeat = true;
