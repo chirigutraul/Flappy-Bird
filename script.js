@@ -141,7 +141,7 @@ function checkSpacebar(event){
 function startGame(){ 
     repeat = true; 
     document.addEventListener("keyup", checkSpacebar);
-    canvas.addEventListener("click", jump);
+    document.addEventListener("click", jump);
 
     score = 0;
     scoreHeader.innerHTML = score;

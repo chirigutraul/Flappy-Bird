@@ -99,6 +99,7 @@ body{
     transform-origin: left top;
     width:288px;
     height:512px;
+    touch-action: manipulation;
 }
 
 .container{
